@@ -1,0 +1,108 @@
+{
+  "name": "adnd",
+  "title": "Advanced Dungeons and Dragons",
+  "description": "Advanced Dungeons and Dragons™ is compatible with the first edition of the “advanced” version of the world’s most popular role-playing game",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 1,
+  "author": "LegoPos and Lee",
+  "esmodules": ["adnd.js"],
+  "styles": ["adnd.css"],
+  "packs": [
+       {
+      "label": "Armor",
+      "entity": "Item",
+      "name": "armor",
+      "path": "packs/armor.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/armor.db"
+    },
+    {
+      "label": "Weapons Melee ",
+      "entity": "Item",
+      "name": "weapons",
+      "path": "packs/weapons-melee.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/weapons-melee.db"
+    },
+	{
+      "label": "Weapons Missile ",
+      "entity": "Item",
+      "name": "weapons",
+      "path": "packs/weapons-missile.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/weapons-missile.db"
+    },
+    {
+      "label": "Equipment",
+      "entity": "Item",
+      "name": "equipment",
+      "path": "packs/equipment.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/equipment.db"
+    }, 
+	{
+      "label": "Herbs Plants Fungi",
+      "entity": "Item",
+      "name": "herbs",
+      "path": "packs/herbs.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/herbs.db"
+    }, 
+    {
+      "label": "Magic-User Spells",
+      "entity": "Item",
+      "name": "Magic-User-spells",
+      "path": "packs/Magic-User-spells.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/Magic-User-spells.db"
+    },
+    {
+      "label": "Cleric Spells",
+      "entity": "Item",
+      "name": "Cleric-spells",
+      "path": "packs/Cleric-spells.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/Cleric-spells.db"
+    },
+	{
+      "label": "Druid Spells",
+      "entity": "Item",
+      "name": "Druid-spells",
+      "path": "packs/Druid-spells.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/Druid-spells.db"
+    },
+	{
+      "label": "Non-Weapon-Proficencies",
+      "entity": "Item",
+      "name": "non-combat-skills",
+      "path": "packs/non-weapon-proficencies.db",
+      "system": "adnd",
+      "package": "world",
+      "absPath": "systems/adnd/packs/non-weapon-proficencies.db"
+    },
+	
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+   
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
