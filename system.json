@@ -104,6 +104,6 @@
   "gridDistance": 5,
   "gridUnits": "ft",
   "url": "https://github.com/LegoPos/ADnD-FoundryVTT",
-  "manifest": "https://github.com/LegoPos/ADnD-FoundryVTT/releases/tag/v1.0.0-alpha/system.json",
-  "download": "https://github.com/LegoPos/ADnD-FoundryVTT/releases/tag/v1.0.0-alpha.zip"
+  "manifest": "https://github.com/LegoPos/ADnD-FoundryVTT/releases/download/v1.0.0-alpha/system.json",
+  "download": "https://github.com/LegoPos/ADnD-FoundryVTT/archive/refs/tags/v1.0.0-alpha.zip"
 }
